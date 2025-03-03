@@ -1,20 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study With AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <img src="ganapati_bappa.jpg" alt="Ganapati Bappa">
+    </div>
 
-h1 {
-    color: #ff6600;
-}
+    <!-- Main Content -->
+    <div id="main-content" style="display: none; text-align: center; margin-top: 50px;">
+        <h1>Welcome to Study With AI</h1>
+        <p>Your AI-powered study assistant!</p>
+        <button onclick="alert('Button Clicked!')">Click Me</button>
+    </div>
 
-button {
-    background-color: #ff6600;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-}
+    <script src="script.js"></script>
+</body>
+</html>
